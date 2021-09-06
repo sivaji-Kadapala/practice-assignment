@@ -1,0 +1,31 @@
+.signInButton {
+	margin: 8px;
+}
+
+.signInTextField {
+	margin-bottom: 40px;
+}
+
+.signInPaper {
+	--width: 400px;
+	position: absolute;
+	width: var(--width);
+	left: calc(50% - var(--width) / 2);
+	height: 400px;
+	top: 75px;
+	margin: auto;
+	text-align: center;
+	display: inline-block;
+}
+
+.registerPaper {
+	--width: 400px;
+	--height: 570px;
+	position: absolute;
+	width: var(--width);
+	left: calc(50% - var(--width) / 2);
+	height: var(--height);
+	top: 75px;
+	text-align: center;
+	display: inline-block;
+}
